@@ -21,7 +21,7 @@ Example:
         ____________________
         |                  |
         |                  |
-        |    "Munib"       |    name
+        |     "Munib"      |    name
         |                  |
         |                  |
         ____________________
@@ -136,7 +136,274 @@ Example:
         a = 14
 
 *************************************************************
-    
+
+let, const and var:
+
 *************************************************************
+
+    These are the keywords used to declare a variable in JS.
+
+    1. let:
+        * It is block scoped.
+        * It can be updated but not re-declared.
+        * It is not hoisted.
+        * It is the best practice to use let instead of var.
+        * It is used when we want to change the value of variable in future.
+        * It is used when we want to limit the scope of variable to a block.
+        * It is used when we want to avoid hoisting.
+
+    2. const:
+        * It is block scoped.
+        * It can neither be updated nor re-declared.
+        * It is not hoisted.
+        * It is used when we want to declare a constant value.
+        * It is used when we want to limit the scope of variable to a block.
+        * It is used when we want to avoid hoisting.
+
+    3. var:
+        * It is function scoped.
+        * It can be updated and re-declared.
+        * It is hoisted.
+        * It is used when we want to declare a variable globally.
+        * It is used when we want to declare a variable in a function.
+        * It is used when we want to use hoisting.
+    
+    Example:
+    
+            let x = 10;
+            const y = 20;
+            var z = 30;
+
+
+*************************************************************
+
+Assignment Operators :
+
+*************************************************************
+
+age = age + 1               
+age += 1                    
+
+age = age -1
+age -= 1
+
+age = age * 1
+age *= 1
+
+
+*************************************************************
+
+Unary Operators :           [Binary Operators]
+
+*************************************************************
+
+It is called unary because it uses only one operend.
+
+age = age + 1
+age += 1                                       // assignment operator
+age++           //PRE-Increment             // unary operator
+
+
+age = age - 1 
+age -= 1                                    // assignment operator
+age--           //PRE-Decrement          // unary operator
+
+
+age = age + 1
+age += 1                                       // assignment operator
+++age           //POST-Increment             // unary operator
+
+
+age = age - 1 
+age -= 1                                    // assignment operator
+--age           //POST-Decrement          // unary operator
+
+
+
+[ ** Differnce b/w pre and post uranry operators ** ]
+
+-> Pre-Increment : 
+    * first use
+    * Then update 
+
+-> Post Increment :
+    * first update
+    * Then use
+
+
+
+
+
+
+*************************************************************
+
+Identifier Rules:
+
+*************************************************************
+
+All JavaScript variables must be identified with unique names (identifiers).
+
+    * Names can contain letters, digits, underscores, and dollar signs.
+    * No space.
+    * Names must begin with a letter.
+    * Names can also begin with $ and underscore.
+    * Names are case sensitive (y and Y are different variables.)
+    * Reserved words (like JavaScript keywords) CANNOT be used as names.
+
+
+CASE in JavaScript :
+
+-> camelCase (JS naming convenetion)
+-> snake_case
+-> PascalCase
+
+
+*************************************************************
+
+Boolean in JS:
+
+*************************************************************
+
+Boolean represents a truth value - > true or false / yes or no
+
+
+
+
+
+*************************************************************
+
+What is TypeScript ?
+
+Static Typed, where Js is dynamic typed
+
+-> It is a strict version of JavaScript
+-> We can not change the datatype of any variable
+-> Designed by Microsoft
+
+*************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 */
