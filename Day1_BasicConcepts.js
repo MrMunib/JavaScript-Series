@@ -88,7 +88,7 @@ If we assign value like this, JS will automatically upgrade the value to 23.
 
     * Modulo (also called reminder operator)        
 
-             rem  = a % b                        
+             rem  = a % b                         ________
                                                 b | a
                                                 ____________
                                                       rem
